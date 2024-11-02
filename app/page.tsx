@@ -134,7 +134,7 @@ export default function HomePage() {
               <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
                 Connect with fellow beer enthusiasts and discover amazing brews
               </p>
-              <Button onClick={openRegisterForm} size="lg" className="bg-yellow-500 text-white hover:bg-yellow-600">
+              <Button onClick={openRegisterForm} size="lg" className="bg-yellow-500 text-white hover:bg-yellow-600 dark:bg-orange-400 dark:text-grey-300">
                 Join Our Community
               </Button>
             </div>
@@ -265,7 +265,7 @@ export default function HomePage() {
         <section className="py-16 bg-white dark:bg-gray-900">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">Frequently Asked Questions</h2>
-            <Accordion type="single" collapsible className="max-w-3xl mx-auto">
+            <Accordion type="single" collapsible className="max-w-3xl mx-auto dark:text-white">
               <AccordionItem value="item-1">
                 <AccordionTrigger>What is BeerHub?</AccordionTrigger>
                 <AccordionContent>
